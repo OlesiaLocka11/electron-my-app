@@ -12,9 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.form{
+  background-color: grey;
+  max-width: 600px;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,11 +26,44 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
+.formLogin{
+  width: 65%;
+  height: 100%;
+  max-width: 600px;
+}
+.h3{
+  color: black;
+}
+.button{
+  background-color: #D9D9D9;
+  border: black;
+  color: #7D6E83;
+  font-size: medium;
+}
+.square{
+  width: 140px;
+  height: 140px;
+  max-width: 650px;
+  background-color: #D9D9D9;
+  margin:auto;
+  color: #7D6E83;
+  justify-content: center;
+  text-align: center;
+  padding: 43px;
+}
+.formTable{
+  margin-top: 30;
+  background-color:#EBEBEB;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+.title-h3 {
+  font-size: 18px;
 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
